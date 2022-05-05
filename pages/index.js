@@ -16,6 +16,7 @@ export default function Home({ results }) {
       <Header />
       <Nav />
       <Results results={results} />
+      <p className="text-white pl-10 ">Source: The Movie Database</p>
     </div>
   );
 }
